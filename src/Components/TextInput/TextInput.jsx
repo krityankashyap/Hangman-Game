@@ -1,4 +1,4 @@
-function TextInput({type="text" , label , placeholder="Enter your input here"  , onChangeHandler }) {
+function TextInput({type="text" , label , placeholder="Enter your input here"  , onChangeHandler}) {
 
   return (
     <label>
@@ -8,6 +8,7 @@ function TextInput({type="text" , label , placeholder="Enter your input here"  ,
           className="px-4px py-2px border border-black-700 rounded-md w-full" 
           placeholder={placeholder}
           onChange={onChangeHandler} 
+         
            />
 
         
